@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# whatsapp-custom
-=======
-<<<<<<< HEAD
-# whatsapp-custom
-=======
 # WhatsApp Custom Linux Wrapper
 
 A lightweight, custom native desktop wrapper for WhatsApp Web built with [Electron](https://www.electronjs.org/). This project provides a clean, borderless, and integrated desktop experience for Linux users, complete with a `.deb` package for easy installation.
@@ -22,35 +16,32 @@ A lightweight, custom native desktop wrapper for WhatsApp Web built with [Electr
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
-\`\`\`bash
-git clone https://github.com/YOUR_USERNAME/your-repo-name.git
-cd your-repo-name
-\`\`\`
+```bash
+git clone https://github.com/VIIRGO9/whatsapp-custom.git
+cd whatsapp-custom
+```
 
-### 2. Install dependencies
-\`\`\`bash
+### 2. Install and Run
+```bash
+# 2. Install dependencies
 npm install
-\`\`\`
 
-### 3. Run the app in development mode
-\`\`\`bash
+# 3. Run the app in development mode
 npm start
-\`\`\`
+```
 
 ## 📦 Building the `.deb` Package
 To generate a standalone Debian package for installation:
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 *The generated `.deb` file will be located in the `dist/` directory.*
 
 ### Install the package:
-\`\`\`bash
+```bash
 sudo dpkg -i dist/linux-whatsapp-web_1.0.0_amd64.deb
-sudo apt --fix-broken install -y # If any dependencies are missing
-\`\`\`
+sudo apt --fix-broken install -y
+```
 
 ## 📝 License
 MIT License - feel free to use and modify for your own Linux setups!
->>>>>>> a72945e (Initial commit: Custom WhatsApp Web Electron wrapper with .deb build support)
->>>>>>> 8faf410 (commit: Custom WhatsApp Web Electron wrapper)
